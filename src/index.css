@@ -1,13 +1,72 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header-item {
+  display: flex;
+  justify-content: end;
+}
+.navbar {
+  background-color: rgb(253, 242, 236);
+}
+.container-1 {
+  background-color: rgb(253, 242, 236);
+}
+.heading-box {
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: blueviolet;
+  font-weight: 500;
+  background-color: white;
+  box-shadow: 0 0 5px 2px #767575;
+}
+.title-box {
+  font-size: 2rem;
+  font-weight: 700;
+  word-break: break-word;
+  text-align: center;
+}
+.description-box {
+  color: #767575;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+.action-box {
+  align-items: center;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+}
+.btn-purple,
+.btn-purple:hover {
+  background-color: rgb(130, 71, 255);
+  color: white;
+  font-weight: 500;
+}
+.sub-container-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.btn-fixed{
+  position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 0 10px -8px;
+    font-weight: 500;
 }
