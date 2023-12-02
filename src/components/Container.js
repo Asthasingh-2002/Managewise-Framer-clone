@@ -36,10 +36,10 @@ const Container = () => {
             Watch Demo
           </button>
         </div>
-        <img src={img1} style={{ maxWidth: "70%" }} height="250px"></img>
+        <img src={img1} style={{ width: "100%", height: " min-content" }}></img>
       </div>
 
-      <div>
+      <div className="bg-white " style={{ padding: "10% 0" }}>
         <div className="sub-container-1">
           <div>
             <span className=" heading-box">
@@ -67,35 +67,41 @@ const Container = () => {
           </div>
 
           <div className="frame2">
-            <img src={img5} width="400px" height="400px"></img>
-
-            <h4> Smart Task Management </h4>
-            <p style={{ color: "rgb(118, 117, 117)" }}>
-              {" "}
-              Say goodbye to chaos with our smart task management system
-            </p>
+            <img src={img5}></img>
+            <div style={{ padding: "0 5%" }}>
+              <h4> Smart Task Management </h4>
+              <p style={{ color: "rgb(118, 117, 117)" }}>
+                {" "}
+                Say goodbye to chaos with our smart task management system
+              </p>
+            </div>
           </div>
           <div className="frame2">
-            <img src={img6} width="400px" height="400px"></img>
-
-            <h4>Flexible Scheduling</h4>
-            <p style={{ color: "rgb(118, 117, 117)" }}>
-              Stay productive with our flexible scheduling system
-            </p>
+            <img src={img6}></img>
+            <div style={{ padding: "0 5%" }}>
+              <h4>Flexible Scheduling</h4>
+              <p style={{ color: "rgb(118, 117, 117)" }}>
+                Stay productive with our flexible scheduling system
+              </p>
+            </div>
           </div>
           <div className="frame2">
-            <img src={img7} width="400px" height="400px"></img>
-            <h4>Easy Communication</h4>
-            <p style={{ color: "rgb(118, 117, 117)" }}>
-              Collaborate seamlessly with your team in real-time
-            </p>
+            <div style={{ padding: "0 5%" }}>
+              <img src={img7}></img>
+              <h4>Easy Communication</h4>
+              <p style={{ color: "rgb(118, 117, 117)" }}>
+                Collaborate seamlessly with your team in real-time
+              </p>
+            </div>
           </div>
           <div className="frame2">
-            <img src={img8} width="400px" height="400px"></img>
-            <h4>Analytics</h4>
-            <p style={{ color: "rgb(118, 117, 117)" }}>
-              Gain valuable insights with our advanced analytics feature
-            </p>
+            <img src={img8}></img>
+            <div style={{ padding: "0 5%" }}>
+              <h4>Analytics</h4>
+              <p style={{ color: "rgb(118, 117, 117)" }}>
+                Gain valuable insights with our advanced analytics feature
+              </p>
+            </div>
           </div>
         </div>
       </div>
