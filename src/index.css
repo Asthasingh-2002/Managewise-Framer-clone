@@ -104,6 +104,7 @@ body {
     border-radius: 20px;
 }
 
+
 .frame1{
   display: flex;
   flex-direction: column;
@@ -116,7 +117,7 @@ body {
   text-align: left;
   border-radius: 20px;
   padding: 50px;  
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 
 
@@ -183,7 +184,7 @@ body {
   margin-right: auto;
   width: 50%;
    }
-   .collapsible1{
+   /* .collapsible1{
     background-color: #eee;
   color: #444;
   cursor: pointer;
@@ -196,14 +197,14 @@ body {
    }
    .active, .collapsible:hover {
     background-color: #ccc;
-  }
+  } */
 
-  .content {
+  /* .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
-  }
+  } */
   .faq-box{
     background-color: white;
     color: black;
@@ -241,4 +242,86 @@ body {
  align-items: center;
  margin: auto;
 }
+  .collapse-box{
+    background-color: rgb(247, 248, 253);
+    border-radius: 20px;
+    padding:20px;
+    
+
+  }
   
+
+  .collapse-box>button{
+    text-decoration: none;
+    color: black ;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+
+
+  }
+  /* .collapse-box>button:focus{
+    color: #8247FF;
+    
+  }
+  .collapse-box>button:default{
+    color:black;
+    
+  } */
+  
+  .collapse-box i{
+    float: right;
+    font-weight: 600;
+    color: rgb(130, 71, 255);
+
+  }
+  /* .collapse-box>button:focus>.fa-xmark{
+   display: block !important;
+  } */
+  /* .collapse-box>button:focus>.fa-plus{
+    display: none;
+   } */
+   .text-decoration{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: rgb(118, 117, 117);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.text-decoration i{
+  color: rgb(93, 192, 133);
+}
+   
+.pricing-frame{
+  background-color: white;
+    align-items: center;
+    color: rgb(254, 129, 98);
+    width: max-content;
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    height: min-content;
+}
+.button-deco{
+  width: max-content;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 7px 15px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.button-deco:hover{
+  border: 1px solid black;
+}
+.pricing-box{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

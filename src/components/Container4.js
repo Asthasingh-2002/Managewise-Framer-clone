@@ -24,118 +24,122 @@ const Container4 = () => {
 
       <div className="pricing-box">
         <div className="frame1">
-          <button type="button" className="btn bg-white">
-            FREE
-          </button>
-          <h4>$0 /month</h4>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Access to all
-              basic features
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Reporting and
-              analytics
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Up to 5
-              individual users
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Chat and email
-              support
-            </span>{" "}
-          </p>
-          <button type="button" className="btn bg-white">
+          <div className="pricing-frame">FREE</div>
+          <div>
+            $0
+            <span
+              style={{
+                fontWeight: "500",
+                color: "rgb(51 51 60)",
+                fontSize: "1.3rem",
+              }}
+            >
+              /month
+            </span>
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Access to all basic features
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Reporting and analytics
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Up to 5 individual users
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Chat and email support
+          </div>
+          <button type="button" className="btn bg-white button-deco">
             Get started
           </button>
         </div>
 
-        <div className="frame1">
-          <button type="button" className="btn bg-white">
-            BUSINESS
-          </button>
-          <h4>$25 /month</h4>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Access to all
-              basic features
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Reporting and
-              analytics
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Up to 5
-              individual users
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Chat and email
-              support
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>3+ integrations
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Account
-              performance reporting
-            </span>{" "}
-          </p>
-          <button type="button" className="btn bg-white">
+        <div className="frame1" style={{backgroundColor:"rgb(28, 28, 28)"}}>
+          <div className="pricing-frame">STANDARD</div>
+          <div className="text-white">
+            $25
+            <span
+              style={{
+                fontWeight: "500",
+                fontSize: "1.3rem",
+              }}
+            >
+              /month
+            </span>
+          </div>
+          <div className="text-decoration" >
+            <i class="fa-solid fa-check"></i>
+            Access to all basic features
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Reporting and analytics
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Up to 5 individual users
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Chat and email support
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            3+ integrations
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Account performance reporting
+          </div>
+          <button type="button" className="btn text-white button-deco" style={{background:"rgb(130, 71, 255)"}}>
             Get started
           </button>
         </div>
 
+
         <div className="frame1">
-          <button type="button" className="btn bg-white">
-          BUSINESS
-          </button>
-          <h4>$42/month</h4>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Access to all
-              basic features
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Reporting and
-              analytics
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Up to 5
-              individual users
-            </span>{" "}
-          </p>
-          <p>
-            <span>
-              <img src={img2} height="20px" width="20px"></img>Chat and email
-              support
-            </span>{" "}
-          </p>
-          <p><span ><img src={img2} height="20px" width="20px"></img></span>3+ integrations </p>
-          <button type="button" className="btn bg-white">
+          <div className="pricing-frame">BUSINESS</div>
+          <div>
+            $42
+            <span
+              style={{
+                fontWeight: "500",
+                color: "rgb(51 51 60)",
+                fontSize: "1.3rem",
+              }}
+            >
+              /month
+            </span>
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Access to all basic features
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Reporting and analytics
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Up to 5 individual users
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            Chat and email support
+          </div>
+          <div className="text-decoration">
+            <i class="fa-solid fa-check"></i>
+            3+ integrations
+          </div>
+          <button type="button" className="btn bg-white button-deco">
             Get started
           </button>
         </div>
+
       </div>
     </div>
   );

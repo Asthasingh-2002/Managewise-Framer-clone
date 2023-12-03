@@ -58,7 +58,7 @@ const Container = () => {
             Manage Wise.
           </div>
 
-          <div className="frame1">
+          <div className="frame1" style={{paddingTop: "100px"}}>
             <div className="star-box">
               <img src={img4} height="40px" width="40px"></img>
             </div>

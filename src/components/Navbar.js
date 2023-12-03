@@ -44,7 +44,7 @@ export default function Navbar() {
               <a className="nav-link active">Testimonials </a>
             </li>
             <li className="nav-item">
-            <button type="button" class="btn bg-white">Buy Template</button>
+            <button type="button" className="btn bg-white">Buy Template</button>
             </li>
           </ul>
         </div>
