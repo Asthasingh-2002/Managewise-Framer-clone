@@ -28,7 +28,7 @@ const Container3 = () => {
       <div className="w-100">
         <div className="collapse-box">
           <button
-            // class="btn btn-primary"
+            // className="btn btn-primary"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapse1"
@@ -56,7 +56,7 @@ const Container3 = () => {
       <div className="w-100">
         <div className="collapse-box">
           <button
-            // class="btn btn-primary"
+            // className="btn btn-primary"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapse2"
@@ -85,7 +85,7 @@ const Container3 = () => {
       <div className="w-100">
         <div className="collapse-box">
           <button
-            // class="btn btn-primary"
+            // className="btn btn-primary"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapse3"
@@ -112,7 +112,7 @@ const Container3 = () => {
       <div className="w-100">
         <div className="collapse-box">
           <button
-            // class="btn btn-primary"
+            // className="btn btn-primary"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapse4"
@@ -139,7 +139,7 @@ const Container3 = () => {
       <div className="w-100">
         <div className="collapse-box">
           <button
-            // class="btn btn-primary"
+            // className="btn btn-primary"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapse5"

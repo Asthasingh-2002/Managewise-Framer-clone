@@ -38,19 +38,19 @@ const Container4 = () => {
             </span>
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Access to all basic features
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Reporting and analytics
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Up to 5 individual users
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Chat and email support
           </div>
           <button type="button" className="btn bg-white button-deco">
@@ -72,27 +72,27 @@ const Container4 = () => {
             </span>
           </div>
           <div className="text-decoration" >
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Access to all basic features
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Reporting and analytics
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Up to 5 individual users
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Chat and email support
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             3+ integrations
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Account performance reporting
           </div>
           <button type="button" className="btn text-white button-deco" style={{background:"rgb(130, 71, 255)"}}>
@@ -116,23 +116,23 @@ const Container4 = () => {
             </span>
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Access to all basic features
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Reporting and analytics
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Up to 5 individual users
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             Chat and email support
           </div>
           <div className="text-decoration">
-            <i class="fa-solid fa-check"></i>
+            <i className="fa-solid fa-check"></i>
             3+ integrations
           </div>
           <button type="button" className="btn bg-white button-deco">

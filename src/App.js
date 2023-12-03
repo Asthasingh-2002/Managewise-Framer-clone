@@ -5,6 +5,7 @@ import Container2 from "./components/Container2";
 import Container3 from "./components/Container3";
 import Container4 from "./components/Container4";
 import Testimonial from "./components/Testimonial";
+import Users from "./components/Users";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Container3/>
       <Container4/>
       <Testimonial/>
+      <Users/>
+
       </>
 
   );
