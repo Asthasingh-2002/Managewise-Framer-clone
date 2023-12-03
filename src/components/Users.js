@@ -31,28 +31,34 @@ const Users = () => {
         </div>
         <img src={img2} height="400px" width="400px"></img>
       </div>
-
-      <div>
-        <div>
+      
+      <div className="d-flex" >
+        <div  style={{    flex: "1"}}>
           <img src={logo} height="40px" width="40px"></img>Manage Wise
         </div>
         <div className="nav-box"> 
           <ul>
             <li>
-              <a href="default.asp">Features</a>
+              <a href="#" style={{  textDecoration: "none"}}>Features</a>
             </li>
             <li>
-              <a href="news.asp">FAQ</a>
+              <a href="#" style={{  textDecoration: "none"}}>FAQ</a>
             </li>
             <li>
-              <a href="contact.asp">Pricing</a>
+              <a href="#" style={{  textDecoration: "none"}}>Pricing</a>
             </li>
             <li>
-              <a href="about.asp">Testimonials</a>
+              <a href="#" style={{  textDecoration: "none"}}>Testimonials</a>
             </li>
           </ul>
         </div>
       </div>
+       
+      <hr/>
+      <div className="footer">
+      © 2022 ManageWise, Inc.
+      </div>
+
     </div>
   );
 };
