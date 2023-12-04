@@ -6,7 +6,7 @@ import logo from "../assets/logo.webp";
 
 const Users = () => {
   return (
-    <div style={{ backgroundColor: "rgb(253, 242, 236)" }}>
+    <div style={{ backgroundColor: "rgb(253, 242, 236)", paddingTop: "50px" }}>
       <div className="user-box">
         <div>
           <span className=" heading-box">
@@ -29,11 +29,11 @@ const Users = () => {
             Try out now
           </button>
         </div>
-        <img src={img2} height="400px" width="400px"></img>
+        <img src={img2} height="300px" width="400px"></img>
       </div>
       
       <div className="d-flex" >
-        <div  style={{    flex: "1"}}>
+        <div  className="logo-box" >
           <img src={logo} height="40px" width="40px"></img>Manage Wise
         </div>
         <div className="nav-box"> 

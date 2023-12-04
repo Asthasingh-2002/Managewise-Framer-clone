@@ -382,8 +382,10 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* margin: 0 20%; */
+  margin: 0 20%;
   background-color: white;
+  border-radius: 30px;
+  padding-top: 25px
 }
 .font-style{
   font-size: 20px;
@@ -412,5 +414,16 @@ section{
  font-weight: 500;
 }
 .footer{
-  padding: 25px;
+  padding: 5%;
+  font-weight: 500;
+}
+.d-flex{
+  padding: 5%;
+}
+.logo-box{
+  flex: 1 1 0%;
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+  font-size: x-large;
 }
