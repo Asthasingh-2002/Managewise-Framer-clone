@@ -415,6 +415,7 @@ section{
 }
 .footer{
   padding: 5%;
+  padding-top: 0%;
   font-weight: 500;
 }
 .d-flex{
